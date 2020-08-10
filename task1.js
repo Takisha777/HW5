@@ -10,6 +10,5 @@ function arrUser(n,m) {
         }
         document.writeln(arr[i] + "<br>");
     }
-
 }
 arrUser(10,10);
