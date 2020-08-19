@@ -3,7 +3,7 @@
 // В переменной знак может быть: +, -, *, /, %, ^. Вывести результат математического действия, указанного в переменной znak.
 
 function doMath(x, znak, y) {
-    let result;
+   let result;
    switch (znak) {
        case "+": result = x + y;
        break;

@@ -8,7 +8,7 @@ function arrUser(n,m) {
             randomNumber = Math.trunc(Math.random()*100);
             arr[i].push(randomNumber);
         }
-        document.writeln(arr[i] + "<br>");
     }
+    return arr;
 }
-arrUser(10,10);
+console.log(arrUser(10,10));

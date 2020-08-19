@@ -4,9 +4,9 @@
 
 function getArrMax(arrUser1,arrUser2) {
     if (summArr(arrUser1)>summArr(arrUser2)){
-        return summArr(arrUser1);
+        return arrUser1;
     } else {
-        return summArr(arrUser2);
+        return arrUser2;
     }
 }
 function summArr(arr) {
@@ -18,4 +18,4 @@ function summArr(arr) {
 }
 
 
-console.log(getArrMax([1,2,4,3,5,20],[6,8,7,9,0]));
+console.log(getArrMax([1, 2, 4, 3, 5, 20],[6, 8, 7, 9, 0]));
