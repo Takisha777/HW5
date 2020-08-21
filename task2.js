@@ -12,10 +12,12 @@ function getArrMax(arrUser1,arrUser2) {
 function summArr(arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++){
-        sum += arr[i];
+        if (typeof (arr[i]) === "number") {
+            sum += arr[i];
+        }
     }
     return sum;
 }
 
 
-console.log(getArrMax([1, 2, 4, 3, 5, 20],[6, 8, 7, 9, 0]));
+console.log(getArrMax([1, 2, 4, 3, 5, "20"],[6, 8, 7, 9, 0]));
